@@ -37,16 +37,13 @@ This repository contains a comprehensive analysis of supply chain data using R. 
    - Assessed and ranked suppliers based on key performance indicators (KPIs), enabling better supplier selection and negotiation strategies.
 
 ## How to Use
-1. Clone the Repository:
-   ```bash
-   git clone https://github.com/yourusername/supply-chain-data-analysis.git
-   ```
-2. Install Required Packages:
+
+1. Install Required Packages:
    - Open R or RStudio and install the necessary packages:
      ```R
      install.packages(c("ggplot2", "dplyr", "forecast", "shiny"))
      ```
-3. Load and Explore the Data:
+2. Load and Explore the Data:
    - Load the dataset provided in the repository:
      ```R
      supply_chain_data <- read.csv("data/supply_chain_data.csv")
@@ -57,7 +54,7 @@ This repository contains a comprehensive analysis of supply chain data using R. 
      source("scripts/inventory_management.R")
      source("scripts/supplier_performance.R")
      ```
-4. Run the Shiny App:
+3. Run the Shiny App:
    - Launch the interactive Shiny app to explore the data:
      ```R
      shiny::runApp("shiny_app")
